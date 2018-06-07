@@ -44,9 +44,9 @@ Press *<enter>* in the shell terminal where you ran the ``rosrun`` command in be
 
 The Entire Code
 ---------------
-Note: the entire code can be seen :codedir:`here in the tutorials GitHub repository<move_group_python_interface/scripts/move_group_python_interface_tutorial.py>`.
+Note: the entire code can be seen :codedir:`here in the tutorials GitHub repository<move_group_python_interface/src/move_group_python_interface/move_group_python_interface_tutorial.py>`.
 
-.. tutorial-formatter:: ./scripts/move_group_python_interface_tutorial.py
+.. tutorial-formatter:: ./src/move_group_python_interface/move_group_python_interface_tutorial.py
 
 The Launch File
 ---------------
