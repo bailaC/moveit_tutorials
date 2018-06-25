@@ -23,7 +23,7 @@ install:
   - sudo apt-get update
   # Install newer version of ruby
   - sudo apt-get -qq install software-properties-common
-  - sudo apt-add-repository -y ppa:brightbox/ruby-ng
+  - sudo apt-add-repository -y --allow-unauthenticated ppa:brightbox/ruby-ng
   - sudo apt-get update
   - sudo apt-get -qq install ruby2.2-dev ruby2.2
   # Install htmlpoofer
