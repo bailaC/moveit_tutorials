@@ -42,3 +42,6 @@ script:
   - rosdoc_lite -o build .
   # Run HTML tests on generated build output to check for 404 errors, etc
   #- htmlproofer ./build --only-4xx --check-html --file-ignore ./build/html/genindex.html,./build/html/search.html,./build/html/index-msg.html --alt-ignore '/.*/' --url-ignore '#'
+
+after_success:
+  - sbt coveralls
