@@ -31,7 +31,7 @@ install:
   - sudo gem install pkg-config
   - sudo gem install mini_portile2
   - sudo gem install html-proofer
-  - pip install coveralls
+  - sudo pip install coveralls
   # Install ROS's version of sphinx
   - sudo apt-get -qq install ros-indigo-rosdoc-lite
   - source /opt/ros/indigo/setup.bash
