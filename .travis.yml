@@ -44,4 +44,4 @@ script:
   #- htmlproofer ./build --only-4xx --check-html --file-ignore ./build/html/genindex.html,./build/html/search.html,./build/html/index-msg.html --alt-ignore '/.*/' --url-ignore '#'
 
 after_success:
-  - sbt coveralls
+  - coveralls
