@@ -12,6 +12,9 @@ The tutorials use the [reStructuredText](http://www.sphinx-doc.org/en/stable/res
 
 [![Build Status](http://build.ros.org/buildStatus/icon?job=Kdoc__moveit_tutorials__ubuntu_xenial_amd64)](http://build.ros.org/job/Kdoc__moveit_tutorials__ubuntu_xenial_amd64/)
 
+## Coveralls Test Coverage
+[![Coverage Status](https://coveralls.io/repos/github/bailaC/moveit_tutorials/badge.svg?branch=kinetic-devel)](https://coveralls.io/github/bailaC/moveit_tutorials?branch=kinetic-devel)
+
 ## Versions
 
 The ``indigo-devel`` branch should be considered for the most part "frozen" for historical reasons, and new changes to tutorials should be in the ``kinetic-devel`` branch.
